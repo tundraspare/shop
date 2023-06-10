@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 100%;
+}
+
+.color-section{
+    background-color: red;
+    height: 100%;width: 50%;
+}
+
+.form-section{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* height:; */
+    /* text-align: center; */
+    /* margin-top: %;  */
+    width: 50%;
+    justify-content: center;
+
+}
+
+.fill-title h1{
+    padding: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    /* font-family: bold; */
+    font-weight: bold;
+}
+
+.enter-name{
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: column;
+}
+
+.enter-name-title p{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-bottom: 0px;
+}
+
+
+.enter-name input{
+    height: 60px;
+    outline: red;
+    margin: 20px;
+    border-radius: 15px;
+    border: .5px solid lightgrey;
+}
+.select-title {
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: column;
+}
+
+
+.select-title p{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+select{
+    margin: 20px;
+    height: 60px;
+    /* width: ; */
+    border-radius: 15px;
+    outline: none;
+    padding: 20px;
+    border: 0.5px solid lightgrey;
+}
+
+.select-title select option{
+    padding: 30px;
+    outline: none;
+}
+
+.enter-name input[type='Text']{
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+
+.number-email{
+    display: flex;
+    /* justify-content: center ; */
+    /* align-items: center; */
+    /* margin: 20px; */
+    margin-top: 20px;
+}
+
+.message-title{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.number-email  #payout-number{
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+    outline: none;
+    border: .5px solid lightgrey;
+
+    border-radius: 15px;
+
+}.number-email INPUT[type='NUMBER']{
+    text-align: center;
+    font-size: 15px;
+}
+
+.number-email  #payout-email{
+    height: 60px;
+    border: 0.5px solid lightgrey;
+    border-radius: 15px;
+    margin-left: 20px;
+    outline: none;
+    width: 90%;
+}
+
+
+.number-email #payout-email[type='email']{
+    padding: 10px;
+}
+
+
+.message input{
+
+        height: 160px;
+        outline: red;
+        margin: 20px;
+        border-radius: 0px;
+        /* width: 80px; */
+        border: .5px solid lightgrey;
+        width: 90%;
+    
+}
+
+.message input[type='text']{
+    padding-top: -30px;
+    text-align: left;
+    padding-top: -50px;
+}
+
+button{
+    height: 60px;width: 180px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+    border: 0.5px solid red;
+}
+
+@media screen and (max-device-width:600px) {
+    .form-section{
+        box-shadow: 0 0 0 0 lightgrey;
+        /* height:; */
+        /* text-align: center; */
+        /* margin-top: %;  */
+        width: 100%;
+        justify-content: center;
+    
+    }
+
+    .message input{
+        width: 85%;
+    }
+    
+}
